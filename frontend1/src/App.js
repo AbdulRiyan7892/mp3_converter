@@ -37,7 +37,7 @@ export default function App() {
       }
 
       // 🔹 Fetch from backend
-      const response = await fetch("http://127.0.0.1:5000/download", {
+      const response = await fetch("https://mp3-converter-qa36.onrender.com/download", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
