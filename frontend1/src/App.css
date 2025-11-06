@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.progress-container {
+  background-color: rgba(255,255,255,0.2);
+  height: 10px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.footer {
+  margin-top: 15px;
+  font-size: 12px;
+  opacity: 0.8;
+}
