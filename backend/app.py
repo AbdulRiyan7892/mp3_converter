@@ -40,6 +40,7 @@ def download_mp3():
         ydl_opts = {
             "format": "bestaudio/best",
             "outtmpl": os.path.join(TEMP_DIR, "%(title)s.%(ext)s"),
+            'cookiefile': 'cookies.txt',
             "postprocessors": [{
                 "key": "FFmpegExtractAudio",
                 "preferredcodec": "mp3",
